@@ -1,21 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+
 int main(){
-    int n=10;
-    int a;
-    int max = 0;
-    int max_idx = -1;
-
-    for(int i=0;i<n;i++){
-        cin>>a;
-        if(a>max){
-            max = a;
-            max_idx = i+1;
-        }
-    }
-
-    cout<<max<<endl;
-    cout<<max_idx<<endl;
-
+    int n;
+    cin>>n;
     
+    int ret= 0;
+    for(int i=1;i<=n;i++){
+        ret+=i;
+    }
+    cout<<ret<<endl;
+    cout<<ret*ret<<endl;
+
+
+    ret= 0;
+    for(int i=1;i<=n;i++){
+        ret+=i*i*i;
+    }
+    cout<<ret;
 }

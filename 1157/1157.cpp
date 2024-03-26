@@ -17,6 +17,7 @@ int main(){
              cnt[a[i]-97]++;
         }
     }
+    
     int maxIdx;
     int max=0;
     bool MaxSame=0;
