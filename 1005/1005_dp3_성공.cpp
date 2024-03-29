@@ -46,8 +46,6 @@ int main(){
             }
         }
 
-
-
         while(!visit_list.empty()){
             int node = visit_list.front();
             visit_list.pop();
