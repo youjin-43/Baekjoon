@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/youjin/Documents/GitHub/BOJ/11758/11758'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BA4, symSize: 0x164 }
+  - { offsetInCU: 0x39CD, offset: 0x39CD, size: 0x8, addend: 0x0, symName: __ZNSt3__19make_pairB7v160006IiiEENS_4pairINS_18__unwrap_ref_decayIT_E4typeENS2_IT0_E4typeEEEOS3_OS6_, symObjAddr: 0x164, symBinAddr: 0x100003D08, symSize: 0x34 }
+  - { offsetInCU: 0x4656, offset: 0x4656, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x1C4, symBinAddr: 0x100003D68, symSize: 0x58 }
+  - { offsetInCU: 0x476A, offset: 0x476A, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x310, symBinAddr: 0x100003EB4, symSize: 0x2C }
+  - { offsetInCU: 0x7084, offset: 0x7084, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BA4, symSize: 0x164 }
+  - { offsetInCU: 0x71C9, offset: 0x71C9, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x198, symBinAddr: 0x100003D3C, symSize: 0x2C }
+  - { offsetInCU: 0x7219, offset: 0x7219, size: 0x8, addend: 0x0, symName: __ZNSt3__14pairIiiEC1B7v160006IiiLPv0EEEOT_OT0_, symObjAddr: 0x21C, symBinAddr: 0x100003DC0, symSize: 0x3C }
+  - { offsetInCU: 0x7275, offset: 0x7275, size: 0x8, addend: 0x0, symName: __ZNSt3__14pairIiiEC2B7v160006IiiLPv0EEEOT_OT0_, symObjAddr: 0x258, symBinAddr: 0x100003DFC, symSize: 0x34 }
+  - { offsetInCU: 0x72D1, offset: 0x72D1, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x28C, symBinAddr: 0x100003E30, symSize: 0x84 }
+  - { offsetInCU: 0x733D, offset: 0x733D, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x33C, symBinAddr: 0x100003EE0, symSize: 0x38 }
+...
