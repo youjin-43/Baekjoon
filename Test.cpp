@@ -1,8 +1,18 @@
 #include<iostream>
-#include<string>
 using namespace std;
-
 int main(){
-    int list[10] = {1,2,3,4,5,6,7,8,9,10};
-    
+    char list[101];
+    cin>>list;
+    int i=0;
+    int cnt=0;
+
+    while(list[i]!='\0'){
+        cout<<list[i]; 
+        i++; cnt++;
+
+        if(cnt==10) {
+            cout<<endl;
+            cnt=0;
+        }
+    }
 }

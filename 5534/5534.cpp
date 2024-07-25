@@ -8,15 +8,14 @@ int main(){
     string name;
     cin>>name;
 
+    //
     for(int i=0;i<n;i++){
         string tmp;
         cin>>tmp;
 
-        for(int o=0;o<name.size();o++){
-            for(int t=0;t<tmp.size();t++){
-                if(tmp[t] != name[o]) continue;
-
-                
+        for(int j=0;j<name.size();j++){
+            for(int k=0;k<tmp.size();k++){
+                if(name[j]==tmp[k])
             }
         }
     }

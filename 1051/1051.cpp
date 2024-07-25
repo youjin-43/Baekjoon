@@ -3,20 +3,20 @@
 using namespace std;
 
 int main(){
-    // string list[50]={
-    //                 "42101",
-    //                 "22100",
-    //                 "22101"
-    //                 };
+    string list[50]={
+                    "42101",
+                    "22100",
+                    "22101"
+                    };
     
-    // int n=3,m=5;
+    int n=3,m=5;
 
-    string list[50];
-    int n,m;
-    cin>>n>>m;
-    for(int i=0;i<n;i++){
-        cin>>list[i];
-    }
+    // string list[50];
+    // int n,m;
+    // cin>>n>>m;
+    // for(int i=0;i<n;i++){
+    //     cin>>list[i];
+    // }
 
     int size = min(n,m)-1;
     bool end =0;
