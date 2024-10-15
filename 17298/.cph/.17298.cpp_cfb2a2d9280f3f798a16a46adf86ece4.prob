@@ -1,0 +1,1 @@
+{"name":"Local: 17298","url":"/Users/youjin/Documents/GitHub/BOJ/17298/17298.cpp","tests":[{"id":1727484116995,"input":"4\n3 5 2 7","output":"5 7 7 -1"},{"id":1727484660405,"input":"4\n9 5 4 8","output":"-1 8 8 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/youjin/Documents/GitHub/BOJ/17298/17298.cpp","group":"local","local":true}

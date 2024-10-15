@@ -1,18 +1,29 @@
 #include<iostream>
+#include<string>
 using namespace std;
 int main(){
-    char list[101];
-    cin>>list;
-    int i=0;
-    int cnt=0;
+    ios::sync_with_stdio(0);cin.tie(0);
 
-    while(list[i]!='\0'){
-        cout<<list[i]; 
-        i++; cnt++;
-
-        if(cnt==10) {
-            cout<<endl;
-            cnt=0;
+    int t; cin>>t;
+    
+    int n; 
+    while(t--){
+        cin>>n;
+        //뀨만렙 미만(구간 4) 
+        if(n<250){
+            cout<<4<<' ';
+        }
+        //뀨만렙이상 구만렙 미만(구간 3)
+        else if(n<275){
+            cout<<3<<' ';
+        }
+        //구만렙이상 만렙 미만(구간 2)
+        else if(n<300){
+             cout<<2<<' ';
+        }
+        //모든 레벨은 만렙(구간 1),
+        else{
+             cout<<1<<' ';
         }
     }
 }

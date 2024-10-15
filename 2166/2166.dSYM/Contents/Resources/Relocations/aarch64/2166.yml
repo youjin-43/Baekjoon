@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/youjin/Documents/GitHub/BOJ/2166/2166'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3CCWRK5PointS1_S1_, symObjAddr: 0x0, symBinAddr: 0x100003CB8, symSize: 0xC8 }
+  - { offsetInCU: 0x39CD, offset: 0x39CD, size: 0x8, addend: 0x0, symName: __ZNSt3__19make_pairB7v160006IiiEENS_4pairINS_18__unwrap_ref_decayIT_E4typeENS2_IT0_E4typeEEEOS3_OS6_, symObjAddr: 0xC8, symBinAddr: 0x100003D80, symSize: 0x34 }
+  - { offsetInCU: 0x6B75, offset: 0x6B75, size: 0x8, addend: 0x0, symName: __Z3CCWRK5PointS1_S1_, symObjAddr: 0x0, symBinAddr: 0x100003CB8, symSize: 0xC8 }
+  - { offsetInCU: 0x6BD9, offset: 0x6BD9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xFC, symBinAddr: 0x100003DB4, symSize: 0x11C }
+  - { offsetInCU: 0x6CD3, offset: 0x6CD3, size: 0x8, addend: 0x0, symName: __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE3tieB7v160006EPNS_13basic_ostreamIcS2_EE, symObjAddr: 0x218, symBinAddr: 0x100003ED0, symSize: 0x2C }
+  - { offsetInCU: 0x6D35, offset: 0x6D35, size: 0x8, addend: 0x0, symName: __ZNSt3__14pairIiiEC1B7v160006IiiLPv0EEEOT_OT0_, symObjAddr: 0x244, symBinAddr: 0x100003EFC, symSize: 0x3C }
+  - { offsetInCU: 0x6D91, offset: 0x6D91, size: 0x8, addend: 0x0, symName: __ZNSt3__14pairIiiEC2B7v160006IiiLPv0EEEOT_OT0_, symObjAddr: 0x280, symBinAddr: 0x100003F38, symSize: 0x34 }
+...

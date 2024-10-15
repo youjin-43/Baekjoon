@@ -1,5 +1,5 @@
 //24.7.8(월) 2473 세용액
-//투포인터 + 2분탐색으로 풀면 되지 않을까? -> lower bound로 풀어보자
+//투포인터 
 
 #include<iostream>
 #include<algorithm>
@@ -7,88 +7,54 @@
 using namespace std;
 int main(){
     ios::sync_with_stdio(0);cin.tie(0);
+    // freopen("input.txt", "r", stdin);
 
     long n; cin>>n;
+    
     long list[5000];
     for(int i=0;i<n;i++){
         cin>>list[i];
     }
     sort(list,list+n);
 
-    //test1
-    // int n=5;
-    // int list[5]={-97, -6, -2, 6, 98};
-
-    //test2
-    // int n=9;
-    // int list[9]={-43,-20,-14, -9, -5, -3, 1, 3, 4};
-
-    //test 8 
-    // int n = 6;
-    // int list[6]={-10,-1,2,7,8,10}; 
-
-    int left=0;
-    int right=n-1;
-
+    vector<int> ret;
     long min_sum=3000000001;
+    long tmp_sum;
+    for(int i=0;i<n;i++){
 
-    int ret_left=-1,ret_mid=-1,ret_right=-1;
-    
-    while(left<right-1){
-        long sum=list[left]+list[right];
-        // cout<<"sum : "<<sum<<endl;
+        int start_ = i+1;
+        int end_ = n-1;
+        while(start_<end_){
+            tmp_sum = list[i];
+            tmp_sum+=(list[start_]+list[end_]);
 
-        // cout<<*(list+left+1)<<' '<<*(list+right)<<endl;
+            if(min_sum > abs(tmp_sum)){
+                min_sum = abs(tmp_sum);
+                ret.clear();
+                ret.push_back(list[i]);
+                ret.push_back(list[start_]);
+                ret.push_back(list[end_]);
+            }
 
-        // 모든 원소가 k보다 작을 때에는 n+1을 출력 ->  구간 [1, n]말고 [1, n+1]을 잡아야 한다.
-        auto it = lower_bound(list+left+1,list+right,-sum); 
-        // cout<<"*it : "<< *it<<endl;
-        
-        //it == left+1 인 경우
-        if(it == list+left+1){
-            sum+=*it;
-        }
-        //it == right 인 경우
-        else if(it == list+right){
-            it--;
-            sum+=*it;
-        }
-        // 그 사이인 경우 -> lowerbound 해서 나온 값과 그 이전값을 비교해서 sum 절댓값 작은걸 가져감
-        else{
-            long tmp_a = sum+(*it);//lowerbound 해서 나온 값
-            it--;
-            long tmp_b = sum+(*it);
-
-            if(min(abs(tmp_a),abs(tmp_b))==abs(tmp_a)){
-                sum=tmp_a;
-                it++;
+            if(tmp_sum>0){
+                end_--;
+            }
+            else if(tmp_sum<0){
+                start_++;
             }else{
-                sum=tmp_b;
+                sort(ret.begin(),ret.end());
+                for(int r:ret){
+                    cout<<r<<' ';
+                }cout<<endl;
+                exit(0);
             }
         }
-        
-        if(abs(sum)<min_sum){
-            min_sum=abs(sum);
-
-            ret_left=list[left];
-            ret_mid=*it;
-            ret_right=list[right];
-        }
-
-        if(sum==0) break;
-
-        // sum-=*it;
-
-        if(sum<0){
-            left++;
-        }
-        else{
-            right--;
-        }
-
     }
 
-    cout<<ret_left<<' '<<ret_mid<<' '<<ret_right;
 
-
+    // 세 용액은 특성값의 오름차순으로 출력
+    sort(ret.begin(),ret.end());
+    for(int r:ret){
+        cout<<r<<' ';
+    }cout<<endl;
 }
