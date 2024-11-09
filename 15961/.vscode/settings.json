@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "map": "cpp",
+        "queue": "cpp",
+        "iosfwd": "cpp",
+        "set": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp"
+    }
+}
