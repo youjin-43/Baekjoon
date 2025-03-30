@@ -1,0 +1,1 @@
+{"name":"Local: 2118","url":"/Users/youjin/Documents/GitHub/BOJ/2118_두개의탑/2118.cpp","tests":[{"id":1742752121008,"input":"5\n1 2 3 4 5","output":"7"},{"id":1742802856511,"input":"4\n1 8 3 2","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/youjin/Documents/GitHub/BOJ/2118_두개의탑/2118.cpp","group":"local","local":true}
