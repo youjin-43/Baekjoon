@@ -1,4 +1,5 @@
 // 2504_괄호의 값
+// 코드 리펙토링
 #include<iostream>
 #include<stack>
 using namespace std;
@@ -16,7 +17,6 @@ int main(){
         // }
 
         char ch = str[i];
-
         // 닫는 괄호 인경우
         if(ch==')' || ch==']'){
             int expectedOpen = (ch == ')') ? -1 : -2;
@@ -24,25 +24,16 @@ int main(){
         
             int tmp=0;
             // 숫자인경우 
-            if(st.size() && st.top()>0){
-                tmp+=st.top(); st.pop();
-            }
+            if(st.size() && st.top()>0){ tmp+=st.top(); st.pop();}
 
             // 여는 괄호가 나오면 
             if(st.size() && st.top() == expectedOpen){
-                if(tmp==0){
-                    tmp += multiplier;
-                    st.pop();
-                }else{
-                    tmp *= multiplier;
-                    st.pop();
-                }
+                if(tmp==0){ tmp += multiplier; st.pop();}
+                else{ tmp *= multiplier; st.pop();}
 
                 // 숫자가 또 있으면 처리
-                if(st.size() && st.top()>0){
-                    tmp += st.top();
-                    st.pop();
-                }
+                if(st.size() && st.top()>0){ tmp += st.top(); st.pop(); }
+
                 st.push(tmp);
                 continue;
             }else{
@@ -50,7 +41,6 @@ int main(){
                 cout<<0<<'\n';
                 exit(0);
             }
-            
         }
         // 여는 괄호이면 그냥 push
         else{
