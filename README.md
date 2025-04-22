@@ -19,8 +19,7 @@
 
 ## 🧑‍💻 백준 현황
 
-[![Solved.ac 티어](http://mazassumnida.wtf/api/generate_badge?boj=youjin43)](https://solved.ac/profile/youjin43)
-[![연속 풀이일](http://mazassumnida.wtf/api/attend?boj=youjin43)](https://solved.ac/profile/youjin43)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430/)
 
 
 <br/>
