@@ -1,5 +1,8 @@
 # 🧠 Baekjoon 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430/)
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
 
+<br/>
 이 레포지토리는 백준 알고리즘 문제 풀이 과정을 기록한 공간입니다.  
 <br/>
 단순히 정답만 맞추는 데 그치지 않고,  
@@ -13,20 +16,10 @@
 
 
 
-
-
-
 <br/>
 
 ## 🔥 목표
 **하루에 한 문제 이상 풀기 (1일 1풀이)**
-
-<br/>
-
-## 🧑‍💻 백준 현황
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430/)
-![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
 
 
 <br/>
