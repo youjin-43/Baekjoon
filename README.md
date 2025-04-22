@@ -1,10 +1,10 @@
 # 🧠 Baekjoon 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430/)
-![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=dark)
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
 
 <br/>
 
-이 레포지토리는 백준 알고리즘 문제 풀이 과정을 기록한 공간입니다.  
+이 레포지토리는 **백준 알고리즘 문제 풀이 과정**을 기록한 공간입니다.  
 
 <br/>
 
