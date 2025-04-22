@@ -13,8 +13,7 @@
 
 
 
-![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
-<img src="http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm"/>
+
 
 
 <br/>
@@ -27,6 +26,7 @@
 ## 🧑‍💻 백준 현황
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430/)
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
 
 
 <br/>
