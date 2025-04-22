@@ -13,8 +13,8 @@
 
 
 
-![mazandi profile](http://mazandi.herokuapp.com/api?kuj0430={kuj0430}&theme=warm)
-<img src="http://mazandi.herokuapp.com/api?kuj0430={kuj0430}&theme=warm"/>
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm)
+<img src="http://mazandi.herokuapp.com/api?handle=kuj0430&theme=warm"/>
 
 
 <br/>
