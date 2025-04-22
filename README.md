@@ -12,12 +12,9 @@
 
 
 
-<!-- 🔥 뱃지 영역 -->
-[![Solved.ac 티어](http://mazassumnida.wtf/api/generate_badge?boj=kuj0430)](https://solved.ac/profile/kuj0430)
-[![백준 스트릭](http://mazassumnida.wtf/api/attend?boj=kuj0430)](https://solved.ac/profile/kuj0430)
-[![Mini](http://mazassumnida.wtf/api/mini?boj=kuj0430)](https://solved.ac/profile/kuj0430)
 
 
+[![Stats](http://mazassumnida.wtf/api/v2/gen_stats?boj=kuj0430)](https://solved.ac/profile/kuj0430)
 
 
 <br/>
