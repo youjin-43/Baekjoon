@@ -19,8 +19,9 @@
 
 ## 🧑‍💻 백준 현황
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=wlwlfdl3324)](https://solved.ac/wlwlfdl3324)
-[![Solved.ac Streak](http://mazassumnida.wtf/api/attend?boj=wlwlfdl3324)](https://solved.ac/wlwlfdl3324)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kuj0430)](https://solved.ac/kuj0430)
+<br/>
+[![Solved.ac Streak](http://mazassumnida.wtf/api/attend?boj=kuj0430)](https://solved.ac/kuj0430)
 
 <br/>
         
