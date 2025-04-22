@@ -1,4 +1,4 @@
-# 🧠 Baekjoon Algorithm Study
+# 🧠 Baekjoon 
 
 이 레포지토리는 백준 알고리즘 문제 풀이 과정을 기록한 공간입니다.  
 <br/>
@@ -9,6 +9,16 @@
 - **어떤 실수를 했고 어떻게 보완했는지**
 
 등 사고 흐름을 정리하여 **꾸준한 사고 훈련과 구현력 향상**을 목표로 하고 있습니다.
+
+
+
+<!-- 🔥 뱃지 영역 -->
+[![Solved.ac 티어](http://mazassumnida.wtf/api/generate_badge?boj=kuj0430)](https://solved.ac/profile/kuj0430)
+[![백준 스트릭](http://mazassumnida.wtf/api/attend?boj=kuj0430)](https://solved.ac/profile/kuj0430)
+[![Mini](http://mazassumnida.wtf/api/mini?boj=kuj0430)](https://solved.ac/profile/kuj0430)
+
+
+
 
 <br/>
 
