@@ -16,6 +16,13 @@
 **하루에 한 문제 이상 풀기 (1일 1풀이)**
 
 <br/>
+
+## 🧑‍💻 백준 현황
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=wlwlfdl3324)](https://solved.ac/wlwlfdl3324)
+[![Solved.ac Streak](http://mazassumnida.wtf/api/attend?boj=wlwlfdl3324)](https://solved.ac/wlwlfdl3324)
+
+<br/>
         
 ## 🔗 블로그 링크
 
