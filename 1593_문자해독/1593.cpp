@@ -15,12 +15,13 @@ int main(){
     // 문자 구성 확인 
     vector<int> cnt(128,0), window_cnt(128, 0);;
     for(int i=0;i<n;i++) cnt[str[i]]++;  // 암호문 str의 알파벳 빈도 기록
-    for (int i = 0; i < n; i++) window_cnt[list[i]]++; // 초기 윈도우 세팅 (list[0~n-1])
 
+    // 초기 윈도우 확인 
+    for (int i = 0; i < n; i++) window_cnt[list[i]]++; 
     if (window_cnt == cnt) ret++; 
 
-     // 슬라이딩 윈도우
-     for (int i = 0; i < m-n; i++) {
+    // 슬라이딩 윈도우
+    for (int i = 0; i < m-n; i++) {
         window_cnt[list[i]]--;     // 빠져나간 문자
         window_cnt[list[i+n]]++;   // 새로 들어온 문자
         if (window_cnt == cnt) ret++;
