@@ -1,0 +1,1 @@
+{"name":"Local: 11054","url":"/Users/youjin/Documents/GitHub/BOJ/10001_15000/11054_가장긴바이토닉부분수열/11054.cpp","tests":[{"id":1748685966159,"input":"10\n1 5 2 1 4 3 4 5 2 1","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/youjin/Documents/GitHub/BOJ/10001_15000/11054_가장긴바이토닉부분수열/11054.cpp","group":"local","local":true}
