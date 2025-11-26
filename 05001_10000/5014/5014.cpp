@@ -1,30 +1,44 @@
 #include<iostream>
+#include<queue>
+#include<vector>
+#include<climits>
+#define MAX 1000000
 using namespace std;
+
 int main(){
     ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+    // freopen("input.txt","r",stdin);
+
     int f,s,g,u,d;
     cin>>f>>s>>g>>u>>d;
 
-    if(s+u>f && s-d<1){
-        cout<<"use the stairs"<<'\n';
-    }else{
-        if(g>s){
-            if((g-s)%u==abs(d-u) && s+u*((g-s)/u+1)-d==g){
-                cout<<(g-s)/u+2<<'\n';
-            }else{
-                cout<<"use the stairs"<<'\n';
+    vector<int> v(f+1,INT_MAX);
+    queue<int> q; 
+    q.push(s); v[s]=0;
+    while(q.size()){
+        int cur = q.front(); q.pop();
+        
+        // up
+        if(cur+u<=f && v[cur+u]>v[cur]+1){
+            if(cur+u==g){
+                cout<<v[cur]+1;
+                exit(0);
             }
+            v[cur+u]=v[cur]+1;
+            q.push(cur+u);
         }
-        else if(g<s){
-            if((s-g)%d==abs(d-u) && s-d*((s-g)/d+1)+u==g){
-                cout<<(s-g)/d+2<<'\n';
-            }else{
-                cout<<"use the stairs"<<'\n';
+
+        //down
+        if(1<=cur-d && v[cur-d]>v[cur]+1){
+            if(cur-d==g){
+                cout<<v[cur]+1;
+                exit(0);
             }
-        }
-        else{
-            cout<<0<<'\n';
+            v[cur-d]=v[cur]+1;
+            q.push(cur-d);
         }
     }
 
+    if(v[g]!=INT_MAX) cout<<v[g]<<'\n';
+    else cout<<"use the stairs"<<'\n';
 }
