@@ -1,18 +1,31 @@
-#include<iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <iostream>
+
 using namespace std;
-int main() {
-    int t; cin>>t;
-    while(t--) {
-        int a,b,c; cin>>a>>b>>c;
-
-        if(b-c>=a){cout<<0<<endl;}
-
-        else if(a==1) cout<<(c-b)<<endl;
-        else if(a==2){
-            cout<<(c-b)*3<<endl;
-      
+vector<int> Split(string s){
+    vector<int> ret;
+    
+    string cur = "";
+    int idx=0;
+    while(idx<s.size()){
+        while(s[idx]!=' '){
+            cur+=s[idx];
+            idx++;
         }
-        else{cout<<(c-b)*5<<endl;}
-        
+        // ret.push_back(stoi(cur));
+        idx++;
+        // cur 초기화
+        cur = "";
     }
+    
+    return ret;
+    
+}
+
+
+int main(){
+    string input = "-1 -2 -3 -4";
+    Split(input);
 }

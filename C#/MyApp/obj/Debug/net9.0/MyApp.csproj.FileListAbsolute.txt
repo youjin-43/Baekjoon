@@ -1,0 +1,15 @@
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/bin/Debug/net9.0/MyApp
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/bin/Debug/net9.0/MyApp.deps.json
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/bin/Debug/net9.0/MyApp.runtimeconfig.json
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/bin/Debug/net9.0/MyApp.dll
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/bin/Debug/net9.0/MyApp.pdb
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfoInputs.cache
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfo.cs
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.csproj.CoreCompileInputs.cache
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.sourcelink.json
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.dll
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/refint/MyApp.dll
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.pdb
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
+/Users/youjin/Documents/GitHub/BOJ/C#/MyApp/obj/Debug/net9.0/ref/MyApp.dll
